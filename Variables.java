@@ -1,16 +1,20 @@
 public class Variables {
     /**
      * Variables in java
-     *
+     * <p>
      * A variable is a named memory location in the computer's memory for storing different types of
      * A variable is an item for storing the state of objects
      * A variable is a container or box for holding data
-     *
+     * <p>
      * A variable has:-
      * data type->specifies the type of data that the variable can hold
      * name->used to reference the variables (must folllow the identifier rules)
      */
-    public static void main(String[] args);{
+    public static void main(String[] args) {
+
+    }
+
+    {
         //Declaring and initialising variables
         // in java we declare variables as follows:
         //<data_type> ,variable name> [= initial_value];
