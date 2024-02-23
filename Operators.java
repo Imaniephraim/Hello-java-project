@@ -11,22 +11,22 @@ public class Operators {
      * They follow a certain precedence so that the compiler can know which operator to evaluate first in case multiple operators are used in statement
      */
 
-    public static void main(Strings[] args){
+    public static void main(String[] args){
         //1. Arithmetic operators
         //Addition-> +
-        System.out.println(x+y);//returns 26
+        System.out.println("x+y");//returns 26
 
         //subtraction->-
-        System.out.println(x-y);// returns 14
+        System.out.println("x-y");// returns 14
 
         //multiplication->*
-        System.out.println(x*y)//returns 120
+        System.out.println("x*y");//returns 120
 
         //Division->/
-        System.out.println(x/y)//returns 3.33333
+        System.out.println("x/y");//returns 3.33333
 
         //Modulus->%(Finds the remainder of division)
-        // System.out.println(x%y)//returns 2
+        //System.out.println("x%y");//returns 2
 
     }
 }
