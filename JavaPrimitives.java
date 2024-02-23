@@ -1,17 +1,13 @@
   public class JavaPrimitives {
       /**
-       *
-       *
-       *
-       *
-       *
-       *
-       *
-       *
-       *
-       *
-       *
-       *
+       *i. boolean
+       *ii. char
+       *iii. byte
+       *iv. short
+       *v. int
+       *vi. long
+       *vii. double
+       *viii. float(floating point) 
         */
       public static void main(String[] args){
           //1. Boolean (logical) data type
