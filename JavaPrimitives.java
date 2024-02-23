@@ -17,6 +17,9 @@
           //1. Boolean (logical) data type
           // example boolean isRaining true;
           // example boolean isRunning false;
+          String isRaining = ("true");
+          String isRunning = ("false");
+
           System.out.println(isRaining);
           System.out.println(isRunning);
 
@@ -30,7 +33,7 @@
           // System.out.println("\t\t\t\t\t\t\t\tSoftware Development")
 
           //insert a line break-> \n
-          System.out.println("This is a very very veeeery long sentence, \nwe have inserted a line break here...);"
+          System.out.println("This is a very very veeeery long sentence, \nwe have inserted a line break here...");
                   // insert a single quote
                   char singleQuote = '\'' ;
                   System.out.println("singleQuote");
@@ -40,8 +43,8 @@
           System.out.println(doubleQuote);
 
           // create euro pound
-          char euroPound '\u00A3';
-          System.out.println(euroPoUnd);
+          char euroPound = '\u00A3';
+          System.out.println(euroPound);
 
             char thaiBhat = '\u00A3';
           System.out.println(thaiBhat);
