@@ -78,6 +78,7 @@ public class ScannerExercise {
         System.out.println("Display total price: " + TotalPrice);
 
         //close the scanner object
+        sc.close();
 
 
 
