@@ -85,6 +85,27 @@ public class RepetitionStructures {
     //50 45 40 35 30 25 20 15 10 5 0
 
 
+        // solution 1
+int k = 0;
+
+do {
+    System.out.println(k);
+    k = k + 5;
+}  while (k < 51);
+
+
+        System.out.println("==================================");
+
+
+//solution 2
+        int i =50;
+
+        do {
+            System.out.println(i);
+            i = i - 5;
+        }  while (i > -1);
+
+
 
 
 
