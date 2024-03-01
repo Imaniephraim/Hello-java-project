@@ -77,7 +77,7 @@ public class DecisionControlStructures {
         //if(condition) {
         //  statement will execute if condition one is true
         // } else if (condition2) {
-        //   statement will execute if conditio1 is false and condition12 is true
+        //   statement will execute if condition is false and condition12 is true
         // } else if (condition3) {
         // statement will execute if condition1 and condition2 are false and condition3 is true
         //} else {
