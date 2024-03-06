@@ -1,5 +1,6 @@
 public class StudentRecord {
     //Instance variables
+
     private String name;
     private String address;
     private int age;
@@ -11,24 +12,83 @@ public class StudentRecord {
     //static/class variable(s)
     private static int studentCount;
 
+    /**
+     *
+     * changes the name of the student(Mutator method)
+     * @param temp
+     */
 
-    //we'll add more code here
-    //where:
-    //private here means that the variables are only accessible within the class. Other objects can't access these variables directly
 
-    //methods
-    //To declare methods we write
+    public void setName(String temp){
+        name = temp;
+    }
 
-    //<modifier> <returnType> <name> (<parameter>*) {
-    //   <statement>
-    // }
+    /**
+     * Returns the name of the student (Accessor method)
+     * @return name
+     */
+    public String getName(){
+        return name;
+    }
 
-    //Where
-    //<modifier> - can carry a number of different modifiers
-    // <returnType> - can be any data type (including void)
-    //<name> - can be any valid identifier
-    // <Parameter> - <parameter_type><parameter_name>
+    public void setAge(int Age){
+        age = Age;
+    }
+    public int getAge(){
+        return age;
+    }
+    public void setAddress (String Address){
+        address = Address;
+    }
+    public String getAddress(){
+        return address;
+    }
 
-    // Accessor
+    public void setEnglishGrade(double EnglishGrade) {
+        englishGrade = EnglishGrade ;
+    }
+    public double getEnglishGrade (){
+        return englishGrade ;
+    }
+
+    public void setMathsGrade (double MathGrade){
+        mathGrade =  MathGrade;
+    }
+    public double getMathGrade(){
+        return mathGrade;
+    }
+
+    public void setScienceGrade(double ScienceGrade){
+        scienceGrade = ScienceGrade;
+    }
+
+    public double getScienceGrade() {
+        return scienceGrade;
+    }
+
+    /**
+     * computes the average of the english,math, and science grades
+     * accessor method
+     *
+     */
+
+    public double getAverage(){
+        double result = 0;
+        result = (mathGrade + scienceGrade + englishGrade)/3 ;
+        return result;
+    }
+
+
+    /**
+     *
+     * Returns the number of instances of StudentRecords
+     * accessor method
+     */
+
+
+
+    public static int getStudentCount(){
+        return studentCount;
+    }
 
 }
