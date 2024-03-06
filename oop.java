@@ -170,7 +170,143 @@ public class oop {
     //Coding Guidelines
     //i.Method names should start with a small letter
     //ii. Method names should be verbs
-    //iii. Always provide documentation before the declaration of the method. You can use javadocs style for this
+    //iii. Always provide documentation before the declaration of the method. You can use javadocs style for this.
+
+    //Overloading Methods
+    //Method overloading  allows a method with the same name but different parameters, to have different implementations and return values of different types
+    //Can be used when the same operation has different implementations
+
+    //Always remember that overloaded methods have the following properties:
+    //->the same method name
+    //->different parameters or different number of parameters
+    //-> return types can be different or the same
+
+
+    //add two methods in StudentRecord class
+
+    //Constructors
+    //Constructor methods
+    //Constructors are important in initialising an object
+    //It is a method where all the initializations are placed
+    //The following are properties of a constructor
+    //-> Constructors have the same name as the class
+    //A constructor is just like an ordinary method, however only the following information can be placed inside the header of a constructor
+    //-> Scope or accessibility identifier (like public..) constructor's name and parameters if it has any
+    //-> Constructors doesn't have any return value
+    //You can't call a constructor directly, it can only be called by using the 'new' operator during the class identification.
+
+    //to declare a constructor, we write
+    //<modifier> <className> <parameters(s)) {
+    //    <statement>
+    // }
+
+    //Default constructor
+    //The default constructor(no-arg constructor) is a constructor without any parameters
+    //if the class does not specify any constructors, then an implicit constructor is created
+
+    //EXAMPLE
+    // public StudentRecord () {
+        //some code here
+    // }
+
+    //OVERLOADING CONSTRUCTOR METHODS
+    // public StudentRecord () {
+    //some code here
+    // }
+
+    // // public Student (String temp) {
+    //        this.name = temp;
+    //    // }
+
+    // public StudentRecord (String name, String address) {
+    // this.name= name;
+    //this.address = address;
+    // }
+
+    // public StudentRecord (double mGrade, double eGrade, double sGrade) {
+    //  mathGrade = mGrade;
+    //  englishGrade = eGrade
+    // scienceGrade = sGrade
+    // }
+
+    //this constructor call
+    //constructor calls can be chained, meaning, you can call another constructor from inside another constructor
+    //we can use this() call for this
+    //There are a few things to remember when using the this() constructor call
+    //-> when using the this() constructor call, IT MUST OCCUR AS THE FIRST STATEMENT in a constructor
+    //-> it can only be used in a constructor definition. The this() call can then be followed by any other relevant statements.
+
+    //"this" reference
+    //the this reference refers to current object instance itself.
+    //used to access the instance variable shadowed by the parameters
+    //To use the "this" reference, we type,
+    //this.<nameOfInstanceVariable>
+    //You can only use the "this" reference for instance variables in java:
+    //i. public (least restrictive)
+    //ii. protected
+    //iii. default
+    //iv. private(most restriction)
+
+    //The first three access modifiers are explicitly written in the code to indicate the access type, for the third one "default", no keyword is used
+
+    //i. public accessibility
+    //specifies that class members (variables or members) are accessible to anyone, both inside and outside the class and outside the package
+    //Any object that interacts with the class can have access to the public members of the class
+    // keyword: public
+    //example:public int userAge;, public String userName
+
+    //ii. protected accessibility
+    //specifies that the class members are accessible only to methods in that and the subclasses of the class
+    //The subclasses can be in different packages
+    //The subclass can be in different packages
+    //keyword: protected
+    //example : protected String name;
+
+    ///iii. default accessibility
+    //specifies that only classes in the same package can have access to the class variable and method
+    //no actual keyword for the default modifier - it is applied in the absence of an access modifier
+    //example; String name:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

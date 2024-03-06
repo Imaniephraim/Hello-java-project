@@ -1,3 +1,5 @@
+import java.awt.*;
+
 public class Main {
     //use class to run StudentRecord class
 
@@ -22,6 +24,17 @@ public class Main {
 
         //print number of students
         System.out.println("count = " +StudentRecord.getStudentCount());
+
+        //set info for students
+        frankRecord.setAddress("Nairobi");
+        frankRecord.setAge(19);
+        frankRecord.setMathsGrade(90);
+        frankRecord.setEnglishGrade(90);
+        frankRecord.setScienceGrade(96);
+
+        //Overloaded methods
+        frankRecord.print(frankRecord.getName());
+        frankRecord.print(frankRecord.getMathGrade(), frankRecord.getEnglishGrade(), frankRecord.getScienceGrade());
 
     }
 }

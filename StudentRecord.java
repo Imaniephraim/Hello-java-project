@@ -91,4 +91,28 @@ public class StudentRecord {
         return studentCount;
     }
 
+    public void print(String temp){
+        System.out.println("Name:  " + name);
+        System.out.println("Address: " + address);
+        System.out.println("Age: " + age);
+    }
+
+    public void print(double eGrade, double mGrade, double sGrade){
+        System.out.println("Name: " + name);
+        System.out.println("Math Grade: " + mGrade);
+        System.out.println("English Grade: " + eGrade);
+        System.out.println("Science Grade: " + sGrade);
+
+
+
+
+
+
+    }
+
+
+
+
+
+
 }
