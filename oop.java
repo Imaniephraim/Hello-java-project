@@ -258,6 +258,7 @@ public class oop {
     //ii. protected accessibility
     //specifies that the class members are accessible only to methods in that and the subclasses of the class
     //The subclasses can be in different packages
+
     //The subclass can be in different packages
     //keyword: protected
     //example : protected String name;
@@ -266,6 +267,15 @@ public class oop {
     //specifies that only classes in the same package can have access to the class variable and method
     //no actual keyword for the default modifier - it is applied in the absence of an access modifier
     //example; String name:
+
+    //iv. private accessibility
+    //specifies that the class members are only accessible by the class they are defined in
+    ////keyword : private
+    //example : private int accountNumber;
+
+    //NB:
+    //The instance variables of a class should normally be declared "private", and the c;ass will just provide accessor amd mutator methods to this variables
+
 
 
 
